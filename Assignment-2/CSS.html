@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333; /* Text color */
+        }
+        header {
+            background-color: #007bff; /* Green header */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        .container {
+            width: 81%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-size: 20px;
+        }
+        p {
+            line-height: 1.6;
+        }
+        header:hover{
+        background-color: aquamarine;
+        
+    }
+    h1:hover{
+        color: rgb(111, 28, 97);
+    }
+        ul {
+            list-style-type: none; /* Remove default list style */
+            padding-left: 0; /* Remove default padding */
+        }
+        li {
+            margin-bottom: 10px;
+            transition: transform 0.3s ease; /* Add transition effect */
+        }
+        li:hover {
+            transform: translateX(5px); /* Add hover effect */
+            background-color: #e9ecef; /* Light grey background on hover */
+        }
+        .back{
+        text-decoration: none;
+        border: 2px solid rgb(22, 20, 20);
+        background-color: rgb(156, 222, 255);
+        font-size: 30px;
+        border-radius: 5px;
+        margin: 5px;
+        padding: 5px;
+    }
+    .back:hover{
+        border-radius: 20px;
+        color: #f0f0f0;
+        background-color: #adadad;
+    }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>About CSS</h1>
+    </header>
+    <center>
+        <img src="css.png" style="margin-top: 20px;">
+    </center>
+    <div class="container">
+        <p>CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in HTML (HyperText Markup Language).</p>
+        <p>CSS describes how elements should be rendered on screen, on paper, in speech, or on other media. It allows for the separation of document content (HTML structure) from document presentation (styling).</p>
+        <p>Here are some key features of CSS:</p>
+        <ul>
+            <li>CSS allows for the styling of HTML elements, such as changing colors, fonts, spacing, and layout.</li>
+            <li>It provides mechanisms for responsive design, allowing web pages to adapt to different screen sizes and orientations.</li>
+            <li>CSS can be applied inline, within a style element in the HTML document, or in external style sheets linked to HTML documents.</li>
+            <li>It supports a wide range of selectors for targeting specific elements or groups of elements in a document.</li>
+            <li>CSS can be used to create animations and transitions, adding interactivity and visual effects to web pages.</li>
+        </ul>
+        <p>Understanding CSS is essential for anyone looking to customize the appearance of their web pages and create visually appealing and user-friendly websites.</p>
+        <a href="project.html" class="back">Home</a>
+    </div>
+
+</body>
+</html>

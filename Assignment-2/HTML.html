@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333; /* Text color */
+        }
+        header {
+            background-color: rgb(0, 123, 255); /* Blue header */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        .container {
+            width: 81%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-size: 20px;
+        }
+        header:hover{
+        background-color: aquamarine;
+        
+    }
+    h1:hover{
+        color: rgb(111, 28, 97);
+    }
+        p {
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: none; /* Remove default list style */
+            padding-left: 0; /* Remove default padding */
+        }
+        li {
+            margin-bottom: 10px;
+            transition: transform 0.3s ease; /* Add transition effect */
+        }
+        li:hover {
+            transform: translateX(5px); /* Add hover effect */
+        }
+        .back{
+        text-decoration: none;
+        border: 2px solid rgb(22, 20, 20);
+        background-color: rgb(156, 222, 255);
+        font-size: 30px;
+        border-radius: 5px;
+        margin: 5px;
+        padding: 5px;
+    }
+    .back:hover{
+        border-radius: 20px;
+        color: #f0f0f0;
+        background-color: #adadad;
+    }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>About HTML</h1>
+    </header>
+
+    <center>
+        <img src="html.png" style="margin-top: 20px;">
+    </center>   
+
+    <div class="container">
+        <p>HTML (Hypertext Markup Language) is the standard markup language for creating web pages and web applications. With HTML, you can structure text, images, and other content on a webpage using a variety of tags and attributes.</p>
+        <p>HTML consists of a series of elements, which you use to enclose, or wrap, different parts of the content to make it appear a certain way, or act a certain way.</p>
+        <p>Here are some key features of HTML:</p>
+        <ul>
+            <li>It provides a standardized way to structure content on a webpage.</li>
+            <li>It allows for the inclusion of images, videos, and other multimedia.</li>
+            <li>It supports hyperlinks, allowing users to navigate between web pages.</li>
+            <li>It can be extended and modified with the use of CSS (Cascading Style Sheets) and JavaScript.</li>
+        </ul>
+        <p>HTML is a foundational technology for the World Wide Web along with CSS and JavaScript. Understanding HTML is essential for anyone looking to create or modify web content.</p>
+        <a href="project.html" class="back">Home</a>
+    </div>
+
+</body>
+</html>
